@@ -30,11 +30,11 @@ Configure your particlar setup in the following files
 
 #### Configure SOS
 
-The direct SOS URL should be definied in the sos_service variable in the `~/auth_token_gen_app/api.js` file
+The direct SOS URL should be definied in the sos_service variable in the [~/auth_token_gen_app/api.js](/auth_token_gen_app/api.js) file
 
 ### Configure Database
 
-Your postgres details should be added into the file `~/auth_token_gen_app/db/index.js` in the Pool object paramters
+Your postgres details should be added into the file [~/auth_token_gen_app/db/index.js](/auth_token_gen_app/db/index.js) in the Pool object parameters
 
 ### Build and run the docker
 
