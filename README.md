@@ -16,7 +16,7 @@ Once you've downloaded this repository, installation can commence.
 
 ### Create the database tables
 
-This is supplied in ![Draft DB Schema](MONOCLE-SOS-proxy/schema.sql)
+This is supplied in ![schema.sql](schema.sql)
 
 Create a proxy user
 
@@ -56,7 +56,6 @@ docker run -d -p 80:8080 --name sos-proxy-container sos-proxy
 ### Authenticate
 
 We first make a url call to authenticate our user and obtain our authentication key
-
 ```bash
 http://yourserver:yourport/api/get_token/YOUR_SENSOR_NAME/YOUR_USER_NAME/YOUR_PASSWORD
 ```
@@ -65,7 +64,7 @@ The entry for the sensor will be created for you as long as the user and passwor
 
 ### Submission
 
-```
+
 Submit your sos xml requests to the following url for passthrough
 ```bash
 http://yourserver:yourport/api/sos_proxy/YOUR_TOKEN/xml/submit
