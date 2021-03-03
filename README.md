@@ -30,7 +30,7 @@ Configure your particlar setup in the following files
 
 #### Configure SOS
 
-The direct SOS URL should be definied in the sos_service variable in the [~/auth_token_gen_app/api.js](/auth_token_gen_app/api.js) file
+The direct SOS URL should be definied in the sos_service variable in the [~/auth_token_gen_app/app.js](/auth_token_gen_app/app.js) file
 
 ### Configure Database
 
