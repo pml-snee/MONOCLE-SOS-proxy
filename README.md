@@ -5,7 +5,6 @@ A lite authentication layer for remote SOS access for the Horizon 2020 project M
 ## Requirements
 
 * [Docker](https://docker.com)
-* [Node.js](https://nodejs.org)
 * [Postgres](https://www.postgresql.org) database
 * Existing [SOS](https://github.com/52North/SOS) server
 
